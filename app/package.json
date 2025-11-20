@@ -1,0 +1,15 @@
+{
+  "name": "app-estudiantes",
+  "version": "1.0.0",
+  "description": "Aplicacion de estudiantes con login y notas (computacion en la nube)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  }
+}
+
