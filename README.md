@@ -16,3 +16,8 @@ Comunicación:
 - El navegador se conecta al servidor de aplicaciones por HTTP en el puerto **3000**.
 - El servidor de aplicaciones se conecta a la base de datos MySQL por el puerto **3306**
   usando el nombre de host `db` dentro de la red de Docker.
+```mermaid
+graph TD;
+  A[Navegador web] --> B[Servidor de aplicaciones (Node.js + Express)];
+  B --> C[Servidor de base de datos (MySQL)];
+```
